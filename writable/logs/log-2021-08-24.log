@@ -1,0 +1,606 @@
+CRITICAL - 2021-08-24 02:33:05 --> A non-numeric value encountered
+#0 C:\wamp64\www\blog\app\Views\pages\home.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\wamp64\\www\\b...', 35, Array)
+#1 C:\wamp64\www\blog\system\View\View.php(230): include('C:\\wamp64\\www\\b...')
+#2 C:\wamp64\www\blog\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\blog\system\Common.php(1271): CodeIgniter\View\View->render('pages/home', Array, true)
+#4 C:\wamp64\www\blog\app\Controllers\Pages.php(14): view('pages/home')
+#5 C:\wamp64\www\blog\system\CodeIgniter.php(928): App\Controllers\Pages->index()
+#6 C:\wamp64\www\blog\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\wamp64\www\blog\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\blog\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\blog\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\b...')
+#10 {main}
+CRITICAL - 2021-08-24 20:54:53 --> syntax error, unexpected '?>'
+#0 C:\wamp64\www\blog\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\wamp64\www\blog\system\Common.php(1271): CodeIgniter\View\View->render('blog/post', Array, true)
+#2 C:\wamp64\www\blog\app\Controllers\Blog.php(14): view('blog/post')
+#3 C:\wamp64\www\blog\system\CodeIgniter.php(928): App\Controllers\Blog->post('First-Post')
+#4 C:\wamp64\www\blog\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#5 C:\wamp64\www\blog\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\blog\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\blog\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\b...')
+#8 {main}
+CRITICAL - 2021-08-24 21:15:54 --> Undefined property: App\Controllers\Blog::$load
+#0 C:\wamp64\www\blog\app\Controllers\Blog.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\b...', 44, Array)
+#1 C:\wamp64\www\blog\system\CodeIgniter.php(928): App\Controllers\Blog->create()
+#2 C:\wamp64\www\blog\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#3 C:\wamp64\www\blog\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\blog\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\blog\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\b...')
+#6 {main}
+CRITICAL - 2021-08-24 23:01:33 --> Undefined index: image
+#0 C:\wamp64\www\blog\app\Controllers\Blog.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\b...', 35, Array)
+#1 C:\wamp64\www\blog\system\CodeIgniter.php(928): App\Controllers\Blog->create()
+#2 C:\wamp64\www\blog\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#3 C:\wamp64\www\blog\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\blog\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\blog\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\b...')
+#6 {main}
+CRITICAL - 2021-08-24 23:02:18 --> Undefined index: Third Picture
+#0 C:\wamp64\www\blog\app\Controllers\Blog.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\b...', 35, Array)
+#1 C:\wamp64\www\blog\system\CodeIgniter.php(928): App\Controllers\Blog->create()
+#2 C:\wamp64\www\blog\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#3 C:\wamp64\www\blog\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\blog\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\blog\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\b...')
+#6 {main}
+CRITICAL - 2021-08-24 23:02:33 --> Undefined index: 1.jpg
+#0 C:\wamp64\www\blog\app\Controllers\Blog.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\b...', 35, Array)
+#1 C:\wamp64\www\blog\system\CodeIgniter.php(928): App\Controllers\Blog->create()
+#2 C:\wamp64\www\blog\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#3 C:\wamp64\www\blog\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\blog\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\blog\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\b...')
+#6 {main}
+CRITICAL - 2021-08-24 23:02:53 --> Undefined index: image
+#0 C:\wamp64\www\blog\app\Controllers\Blog.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\b...', 35, Array)
+#1 C:\wamp64\www\blog\system\CodeIgniter.php(928): App\Controllers\Blog->create()
+#2 C:\wamp64\www\blog\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#3 C:\wamp64\www\blog\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\blog\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\blog\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\b...')
+#6 {main}
+ERROR - 2021-08-24 23:04:42 --> Column 'image' cannot be null
+CRITICAL - 2021-08-24 23:04:42 --> Column 'image' cannot be null
+#0 C:\wamp64\www\blog\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `bl...')
+#1 C:\wamp64\www\blog\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `bl...')
+#2 C:\wamp64\www\blog\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `bl...')
+#3 C:\wamp64\www\blog\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `bl...', Array, false)
+#4 C:\wamp64\www\blog\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\blog\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\blog\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\wamp64\www\blog\system\BaseModel.php(687): CodeIgniter\Model->insert(Array, false)
+#8 C:\wamp64\www\blog\app\Controllers\Blog.php(35): CodeIgniter\BaseModel->save(Array)
+#9 C:\wamp64\www\blog\system\CodeIgniter.php(928): App\Controllers\Blog->create()
+#10 C:\wamp64\www\blog\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#11 C:\wamp64\www\blog\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\blog\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\wamp64\www\blog\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\b...')
+#14 {main}
+CRITICAL - 2021-08-24 23:15:43 --> Undefined variable: data
+#0 C:\wamp64\www\blog\app\Views\blog\create.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\b...', 24, Array)
+#1 C:\wamp64\www\blog\system\View\View.php(230): include('C:\\wamp64\\www\\b...')
+#2 C:\wamp64\www\blog\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\blog\system\Common.php(1271): CodeIgniter\View\View->render('blog/create', Array, true)
+#4 C:\wamp64\www\blog\app\Controllers\Blog.php(26): view('blog/create')
+#5 C:\wamp64\www\blog\system\CodeIgniter.php(928): App\Controllers\Blog->create()
+#6 C:\wamp64\www\blog\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#7 C:\wamp64\www\blog\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\blog\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\blog\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\b...')
+#10 {main}
+CRITICAL - 2021-08-24 23:18:15 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\blog\app\Views\blog\post.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\b...', 6, Array)
+#1 C:\wamp64\www\blog\system\View\View.php(230): include('C:\\wamp64\\www\\b...')
+#2 C:\wamp64\www\blog\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\blog\system\Common.php(1271): CodeIgniter\View\View->render('blog/post', Array, true)
+#4 C:\wamp64\www\blog\app\Controllers\Blog.php(14): view('blog/post')
+#5 C:\wamp64\www\blog\system\CodeIgniter.php(928): App\Controllers\Blog->post('upload')
+#6 C:\wamp64\www\blog\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#7 C:\wamp64\www\blog\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\blog\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\blog\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\b...')
+#10 {main}
+CRITICAL - 2021-08-24 23:20:13 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\blog\app\Views\blog\post.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\b...', 6, Array)
+#1 C:\wamp64\www\blog\system\View\View.php(230): include('C:\\wamp64\\www\\b...')
+#2 C:\wamp64\www\blog\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\blog\system\Common.php(1271): CodeIgniter\View\View->render('blog/post', Array, true)
+#4 C:\wamp64\www\blog\app\Controllers\Blog.php(14): view('blog/post')
+#5 C:\wamp64\www\blog\system\CodeIgniter.php(928): App\Controllers\Blog->post('upload')
+#6 C:\wamp64\www\blog\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#7 C:\wamp64\www\blog\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\blog\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\blog\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\b...')
+#10 {main}
+CRITICAL - 2021-08-24 23:20:14 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\blog\app\Views\blog\post.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\b...', 6, Array)
+#1 C:\wamp64\www\blog\system\View\View.php(230): include('C:\\wamp64\\www\\b...')
+#2 C:\wamp64\www\blog\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\blog\system\Common.php(1271): CodeIgniter\View\View->render('blog/post', Array, true)
+#4 C:\wamp64\www\blog\app\Controllers\Blog.php(14): view('blog/post')
+#5 C:\wamp64\www\blog\system\CodeIgniter.php(928): App\Controllers\Blog->post('upload')
+#6 C:\wamp64\www\blog\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#7 C:\wamp64\www\blog\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\blog\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\blog\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\b...')
+#10 {main}
+CRITICAL - 2021-08-24 23:20:14 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\blog\app\Views\blog\post.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\b...', 6, Array)
+#1 C:\wamp64\www\blog\system\View\View.php(230): include('C:\\wamp64\\www\\b...')
+#2 C:\wamp64\www\blog\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\blog\system\Common.php(1271): CodeIgniter\View\View->render('blog/post', Array, true)
+#4 C:\wamp64\www\blog\app\Controllers\Blog.php(14): view('blog/post')
+#5 C:\wamp64\www\blog\system\CodeIgniter.php(928): App\Controllers\Blog->post('upload')
+#6 C:\wamp64\www\blog\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#7 C:\wamp64\www\blog\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\blog\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\blog\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\b...')
+#10 {main}
+CRITICAL - 2021-08-24 23:20:15 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\blog\app\Views\blog\post.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\b...', 6, Array)
+#1 C:\wamp64\www\blog\system\View\View.php(230): include('C:\\wamp64\\www\\b...')
+#2 C:\wamp64\www\blog\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\blog\system\Common.php(1271): CodeIgniter\View\View->render('blog/post', Array, true)
+#4 C:\wamp64\www\blog\app\Controllers\Blog.php(14): view('blog/post')
+#5 C:\wamp64\www\blog\system\CodeIgniter.php(928): App\Controllers\Blog->post('upload')
+#6 C:\wamp64\www\blog\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#7 C:\wamp64\www\blog\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\blog\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\blog\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\b...')
+#10 {main}
+CRITICAL - 2021-08-24 23:20:15 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\blog\app\Views\blog\post.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\b...', 6, Array)
+#1 C:\wamp64\www\blog\system\View\View.php(230): include('C:\\wamp64\\www\\b...')
+#2 C:\wamp64\www\blog\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\blog\system\Common.php(1271): CodeIgniter\View\View->render('blog/post', Array, true)
+#4 C:\wamp64\www\blog\app\Controllers\Blog.php(14): view('blog/post')
+#5 C:\wamp64\www\blog\system\CodeIgniter.php(928): App\Controllers\Blog->post('upload')
+#6 C:\wamp64\www\blog\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#7 C:\wamp64\www\blog\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\blog\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\blog\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\b...')
+#10 {main}
+CRITICAL - 2021-08-24 23:20:16 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\blog\app\Views\blog\post.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\b...', 6, Array)
+#1 C:\wamp64\www\blog\system\View\View.php(230): include('C:\\wamp64\\www\\b...')
+#2 C:\wamp64\www\blog\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\blog\system\Common.php(1271): CodeIgniter\View\View->render('blog/post', Array, true)
+#4 C:\wamp64\www\blog\app\Controllers\Blog.php(14): view('blog/post')
+#5 C:\wamp64\www\blog\system\CodeIgniter.php(928): App\Controllers\Blog->post('upload')
+#6 C:\wamp64\www\blog\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#7 C:\wamp64\www\blog\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\blog\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\blog\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\b...')
+#10 {main}
+CRITICAL - 2021-08-24 23:20:16 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\blog\app\Views\blog\post.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\b...', 6, Array)
+#1 C:\wamp64\www\blog\system\View\View.php(230): include('C:\\wamp64\\www\\b...')
+#2 C:\wamp64\www\blog\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\blog\system\Common.php(1271): CodeIgniter\View\View->render('blog/post', Array, true)
+#4 C:\wamp64\www\blog\app\Controllers\Blog.php(14): view('blog/post')
+#5 C:\wamp64\www\blog\system\CodeIgniter.php(928): App\Controllers\Blog->post('upload')
+#6 C:\wamp64\www\blog\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#7 C:\wamp64\www\blog\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\blog\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\blog\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\b...')
+#10 {main}
+CRITICAL - 2021-08-24 23:20:17 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\blog\app\Views\blog\post.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\b...', 6, Array)
+#1 C:\wamp64\www\blog\system\View\View.php(230): include('C:\\wamp64\\www\\b...')
+#2 C:\wamp64\www\blog\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\blog\system\Common.php(1271): CodeIgniter\View\View->render('blog/post', Array, true)
+#4 C:\wamp64\www\blog\app\Controllers\Blog.php(14): view('blog/post')
+#5 C:\wamp64\www\blog\system\CodeIgniter.php(928): App\Controllers\Blog->post('upload')
+#6 C:\wamp64\www\blog\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#7 C:\wamp64\www\blog\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\blog\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\blog\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\b...')
+#10 {main}
+CRITICAL - 2021-08-24 23:20:18 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\blog\app\Views\blog\post.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\b...', 6, Array)
+#1 C:\wamp64\www\blog\system\View\View.php(230): include('C:\\wamp64\\www\\b...')
+#2 C:\wamp64\www\blog\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\blog\system\Common.php(1271): CodeIgniter\View\View->render('blog/post', Array, true)
+#4 C:\wamp64\www\blog\app\Controllers\Blog.php(14): view('blog/post')
+#5 C:\wamp64\www\blog\system\CodeIgniter.php(928): App\Controllers\Blog->post('upload')
+#6 C:\wamp64\www\blog\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#7 C:\wamp64\www\blog\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\blog\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\blog\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\b...')
+#10 {main}
+CRITICAL - 2021-08-24 23:20:19 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\blog\app\Views\blog\post.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\b...', 6, Array)
+#1 C:\wamp64\www\blog\system\View\View.php(230): include('C:\\wamp64\\www\\b...')
+#2 C:\wamp64\www\blog\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\blog\system\Common.php(1271): CodeIgniter\View\View->render('blog/post', Array, true)
+#4 C:\wamp64\www\blog\app\Controllers\Blog.php(14): view('blog/post')
+#5 C:\wamp64\www\blog\system\CodeIgniter.php(928): App\Controllers\Blog->post('upload')
+#6 C:\wamp64\www\blog\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#7 C:\wamp64\www\blog\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\blog\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\blog\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\b...')
+#10 {main}
+CRITICAL - 2021-08-24 23:20:19 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\blog\app\Views\blog\post.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\b...', 6, Array)
+#1 C:\wamp64\www\blog\system\View\View.php(230): include('C:\\wamp64\\www\\b...')
+#2 C:\wamp64\www\blog\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\blog\system\Common.php(1271): CodeIgniter\View\View->render('blog/post', Array, true)
+#4 C:\wamp64\www\blog\app\Controllers\Blog.php(14): view('blog/post')
+#5 C:\wamp64\www\blog\system\CodeIgniter.php(928): App\Controllers\Blog->post('upload')
+#6 C:\wamp64\www\blog\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#7 C:\wamp64\www\blog\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\blog\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\blog\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\b...')
+#10 {main}
+CRITICAL - 2021-08-24 23:20:20 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\blog\app\Views\blog\post.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\b...', 6, Array)
+#1 C:\wamp64\www\blog\system\View\View.php(230): include('C:\\wamp64\\www\\b...')
+#2 C:\wamp64\www\blog\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\blog\system\Common.php(1271): CodeIgniter\View\View->render('blog/post', Array, true)
+#4 C:\wamp64\www\blog\app\Controllers\Blog.php(14): view('blog/post')
+#5 C:\wamp64\www\blog\system\CodeIgniter.php(928): App\Controllers\Blog->post('upload')
+#6 C:\wamp64\www\blog\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#7 C:\wamp64\www\blog\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\blog\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\blog\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\b...')
+#10 {main}
+CRITICAL - 2021-08-24 23:20:20 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\blog\app\Views\blog\post.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\b...', 6, Array)
+#1 C:\wamp64\www\blog\system\View\View.php(230): include('C:\\wamp64\\www\\b...')
+#2 C:\wamp64\www\blog\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\blog\system\Common.php(1271): CodeIgniter\View\View->render('blog/post', Array, true)
+#4 C:\wamp64\www\blog\app\Controllers\Blog.php(14): view('blog/post')
+#5 C:\wamp64\www\blog\system\CodeIgniter.php(928): App\Controllers\Blog->post('upload')
+#6 C:\wamp64\www\blog\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#7 C:\wamp64\www\blog\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\blog\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\blog\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\b...')
+#10 {main}
+CRITICAL - 2021-08-24 23:20:52 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\blog\app\Views\blog\post.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\b...', 6, Array)
+#1 C:\wamp64\www\blog\system\View\View.php(230): include('C:\\wamp64\\www\\b...')
+#2 C:\wamp64\www\blog\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\blog\system\Common.php(1271): CodeIgniter\View\View->render('blog/post', Array, true)
+#4 C:\wamp64\www\blog\app\Controllers\Blog.php(14): view('blog/post')
+#5 C:\wamp64\www\blog\system\CodeIgniter.php(928): App\Controllers\Blog->post('upload')
+#6 C:\wamp64\www\blog\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#7 C:\wamp64\www\blog\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\blog\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\blog\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\b...')
+#10 {main}
+CRITICAL - 2021-08-24 23:20:54 --> Undefined index: title
+#0 C:\wamp64\www\blog\app\Views\blog\post.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\b...', 6, Array)
+#1 C:\wamp64\www\blog\system\View\View.php(230): include('C:\\wamp64\\www\\b...')
+#2 C:\wamp64\www\blog\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\blog\system\Common.php(1271): CodeIgniter\View\View->render('blog/post', Array, true)
+#4 C:\wamp64\www\blog\app\Controllers\Blog.php(14): view('blog/post')
+#5 C:\wamp64\www\blog\system\CodeIgniter.php(928): App\Controllers\Blog->post('')
+#6 C:\wamp64\www\blog\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#7 C:\wamp64\www\blog\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\blog\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\blog\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\b...')
+#10 {main}
+CRITICAL - 2021-08-24 23:21:32 --> Undefined index: title
+#0 C:\wamp64\www\blog\app\Views\blog\post.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\b...', 6, Array)
+#1 C:\wamp64\www\blog\system\View\View.php(230): include('C:\\wamp64\\www\\b...')
+#2 C:\wamp64\www\blog\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\blog\system\Common.php(1271): CodeIgniter\View\View->render('blog/post', Array, true)
+#4 C:\wamp64\www\blog\app\Controllers\Blog.php(14): view('blog/post')
+#5 C:\wamp64\www\blog\system\CodeIgniter.php(928): App\Controllers\Blog->post('')
+#6 C:\wamp64\www\blog\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#7 C:\wamp64\www\blog\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\blog\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\blog\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\b...')
+#10 {main}
+CRITICAL - 2021-08-24 23:21:33 --> Undefined index: title
+#0 C:\wamp64\www\blog\app\Views\blog\post.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\b...', 6, Array)
+#1 C:\wamp64\www\blog\system\View\View.php(230): include('C:\\wamp64\\www\\b...')
+#2 C:\wamp64\www\blog\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\blog\system\Common.php(1271): CodeIgniter\View\View->render('blog/post', Array, true)
+#4 C:\wamp64\www\blog\app\Controllers\Blog.php(14): view('blog/post')
+#5 C:\wamp64\www\blog\system\CodeIgniter.php(928): App\Controllers\Blog->post('')
+#6 C:\wamp64\www\blog\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#7 C:\wamp64\www\blog\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\blog\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\blog\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\b...')
+#10 {main}
+CRITICAL - 2021-08-24 23:21:34 --> Undefined index: title
+#0 C:\wamp64\www\blog\app\Views\blog\post.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\b...', 6, Array)
+#1 C:\wamp64\www\blog\system\View\View.php(230): include('C:\\wamp64\\www\\b...')
+#2 C:\wamp64\www\blog\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\blog\system\Common.php(1271): CodeIgniter\View\View->render('blog/post', Array, true)
+#4 C:\wamp64\www\blog\app\Controllers\Blog.php(14): view('blog/post')
+#5 C:\wamp64\www\blog\system\CodeIgniter.php(928): App\Controllers\Blog->post('')
+#6 C:\wamp64\www\blog\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#7 C:\wamp64\www\blog\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\blog\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\blog\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\b...')
+#10 {main}
+CRITICAL - 2021-08-24 23:21:34 --> Undefined index: title
+#0 C:\wamp64\www\blog\app\Views\blog\post.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\b...', 6, Array)
+#1 C:\wamp64\www\blog\system\View\View.php(230): include('C:\\wamp64\\www\\b...')
+#2 C:\wamp64\www\blog\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\blog\system\Common.php(1271): CodeIgniter\View\View->render('blog/post', Array, true)
+#4 C:\wamp64\www\blog\app\Controllers\Blog.php(14): view('blog/post')
+#5 C:\wamp64\www\blog\system\CodeIgniter.php(928): App\Controllers\Blog->post('')
+#6 C:\wamp64\www\blog\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#7 C:\wamp64\www\blog\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\blog\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\blog\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\b...')
+#10 {main}
+CRITICAL - 2021-08-24 23:22:36 --> Undefined index: title
+#0 C:\wamp64\www\blog\app\Views\blog\post.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\b...', 6, Array)
+#1 C:\wamp64\www\blog\system\View\View.php(230): include('C:\\wamp64\\www\\b...')
+#2 C:\wamp64\www\blog\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\blog\system\Common.php(1271): CodeIgniter\View\View->render('blog/post', Array, true)
+#4 C:\wamp64\www\blog\app\Controllers\Blog.php(14): view('blog/post')
+#5 C:\wamp64\www\blog\system\CodeIgniter.php(928): App\Controllers\Blog->post('')
+#6 C:\wamp64\www\blog\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#7 C:\wamp64\www\blog\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\blog\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\blog\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\b...')
+#10 {main}
+CRITICAL - 2021-08-24 23:22:50 --> Undefined variable: data
+#0 C:\wamp64\www\blog\app\Views\blog\create.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\b...', 24, Array)
+#1 C:\wamp64\www\blog\system\View\View.php(230): include('C:\\wamp64\\www\\b...')
+#2 C:\wamp64\www\blog\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\blog\system\Common.php(1271): CodeIgniter\View\View->render('blog/create', Array, true)
+#4 C:\wamp64\www\blog\app\Controllers\Blog.php(26): view('blog/create')
+#5 C:\wamp64\www\blog\system\CodeIgniter.php(928): App\Controllers\Blog->create()
+#6 C:\wamp64\www\blog\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#7 C:\wamp64\www\blog\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\blog\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\blog\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\b...')
+#10 {main}
+CRITICAL - 2021-08-24 23:23:10 --> Undefined property: App\Controllers\Blog::$load
+#0 C:\wamp64\www\blog\app\Controllers\Blog.php(59): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\b...', 59, Array)
+#1 C:\wamp64\www\blog\system\CodeIgniter.php(928): App\Controllers\Blog->do_upload()
+#2 C:\wamp64\www\blog\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#3 C:\wamp64\www\blog\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\blog\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\blog\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\b...')
+#6 {main}
+CRITICAL - 2021-08-24 23:23:40 --> Class 'App\Controllers\CI_Controller' not found
+#0 C:\wamp64\www\blog\system\Autoloader\Autoloader.php(300): include_once()
+#1 C:\wamp64\www\blog\system\Autoloader\Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\b...')
+#2 C:\wamp64\www\blog\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 [internal function]: spl_autoload_call('App\\Controllers...')
+#5 C:\wamp64\www\blog\system\CodeIgniter.php(885): class_exists('\\App\\Controller...', true)
+#6 C:\wamp64\www\blog\system\CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#7 C:\wamp64\www\blog\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\blog\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\blog\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\b...')
+#10 {main}
+CRITICAL - 2021-08-24 23:24:29 --> Class 'App\Controllers\Controller' not found
+#0 C:\wamp64\www\blog\system\Autoloader\Autoloader.php(300): include_once()
+#1 C:\wamp64\www\blog\system\Autoloader\Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\b...')
+#2 C:\wamp64\www\blog\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 [internal function]: spl_autoload_call('App\\Controllers...')
+#5 C:\wamp64\www\blog\system\CodeIgniter.php(885): class_exists('\\App\\Controller...', true)
+#6 C:\wamp64\www\blog\system\CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#7 C:\wamp64\www\blog\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\blog\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\blog\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\b...')
+#10 {main}
+CRITICAL - 2021-08-24 23:25:18 --> Undefined property: App\Controllers\Blog::$load
+#0 C:\wamp64\www\blog\app\Controllers\Blog.php(59): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\b...', 59, Array)
+#1 C:\wamp64\www\blog\system\CodeIgniter.php(928): App\Controllers\Blog->do_upload()
+#2 C:\wamp64\www\blog\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#3 C:\wamp64\www\blog\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\blog\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\blog\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\b...')
+#6 {main}
+CRITICAL - 2021-08-24 23:27:11 --> Undefined property: App\Controllers\Blog::$load
+#0 C:\wamp64\www\blog\app\Controllers\Blog.php(59): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\b...', 59, Array)
+#1 C:\wamp64\www\blog\system\CodeIgniter.php(928): App\Controllers\Blog->do_upload()
+#2 C:\wamp64\www\blog\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#3 C:\wamp64\www\blog\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\blog\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\blog\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\b...')
+#6 {main}
+CRITICAL - 2021-08-24 23:27:12 --> Undefined property: App\Controllers\Blog::$load
+#0 C:\wamp64\www\blog\app\Controllers\Blog.php(59): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\b...', 59, Array)
+#1 C:\wamp64\www\blog\system\CodeIgniter.php(928): App\Controllers\Blog->do_upload()
+#2 C:\wamp64\www\blog\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#3 C:\wamp64\www\blog\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\blog\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\blog\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\b...')
+#6 {main}
+CRITICAL - 2021-08-24 23:27:13 --> Undefined property: App\Controllers\Blog::$load
+#0 C:\wamp64\www\blog\app\Controllers\Blog.php(59): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\b...', 59, Array)
+#1 C:\wamp64\www\blog\system\CodeIgniter.php(928): App\Controllers\Blog->do_upload()
+#2 C:\wamp64\www\blog\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#3 C:\wamp64\www\blog\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\blog\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\blog\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\b...')
+#6 {main}
+CRITICAL - 2021-08-24 23:27:13 --> Undefined property: App\Controllers\Blog::$load
+#0 C:\wamp64\www\blog\app\Controllers\Blog.php(59): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\b...', 59, Array)
+#1 C:\wamp64\www\blog\system\CodeIgniter.php(928): App\Controllers\Blog->do_upload()
+#2 C:\wamp64\www\blog\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#3 C:\wamp64\www\blog\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\blog\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\blog\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\b...')
+#6 {main}
+CRITICAL - 2021-08-24 23:27:14 --> Undefined property: App\Controllers\Blog::$load
+#0 C:\wamp64\www\blog\app\Controllers\Blog.php(59): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\b...', 59, Array)
+#1 C:\wamp64\www\blog\system\CodeIgniter.php(928): App\Controllers\Blog->do_upload()
+#2 C:\wamp64\www\blog\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#3 C:\wamp64\www\blog\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\blog\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\blog\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\b...')
+#6 {main}
+CRITICAL - 2021-08-24 23:27:14 --> Undefined property: App\Controllers\Blog::$load
+#0 C:\wamp64\www\blog\app\Controllers\Blog.php(59): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\b...', 59, Array)
+#1 C:\wamp64\www\blog\system\CodeIgniter.php(928): App\Controllers\Blog->do_upload()
+#2 C:\wamp64\www\blog\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#3 C:\wamp64\www\blog\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\blog\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\blog\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\b...')
+#6 {main}
+CRITICAL - 2021-08-24 23:27:15 --> Undefined property: App\Controllers\Blog::$load
+#0 C:\wamp64\www\blog\app\Controllers\Blog.php(59): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\b...', 59, Array)
+#1 C:\wamp64\www\blog\system\CodeIgniter.php(928): App\Controllers\Blog->do_upload()
+#2 C:\wamp64\www\blog\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#3 C:\wamp64\www\blog\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\blog\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\blog\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\b...')
+#6 {main}
+CRITICAL - 2021-08-24 23:28:07 --> Undefined property: App\Controllers\Blog::$load
+#0 C:\wamp64\www\blog\app\Controllers\Blog.php(59): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\b...', 59, Array)
+#1 C:\wamp64\www\blog\system\CodeIgniter.php(928): App\Controllers\Blog->do_upload()
+#2 C:\wamp64\www\blog\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#3 C:\wamp64\www\blog\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\blog\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\blog\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\b...')
+#6 {main}
+CRITICAL - 2021-08-24 23:28:07 --> Undefined property: App\Controllers\Blog::$load
+#0 C:\wamp64\www\blog\app\Controllers\Blog.php(59): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\b...', 59, Array)
+#1 C:\wamp64\www\blog\system\CodeIgniter.php(928): App\Controllers\Blog->do_upload()
+#2 C:\wamp64\www\blog\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#3 C:\wamp64\www\blog\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\blog\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\blog\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\b...')
+#6 {main}
+CRITICAL - 2021-08-24 23:28:07 --> Undefined property: App\Controllers\Blog::$load
+#0 C:\wamp64\www\blog\app\Controllers\Blog.php(59): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\b...', 59, Array)
+#1 C:\wamp64\www\blog\system\CodeIgniter.php(928): App\Controllers\Blog->do_upload()
+#2 C:\wamp64\www\blog\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#3 C:\wamp64\www\blog\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\blog\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\blog\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\b...')
+#6 {main}
+CRITICAL - 2021-08-24 23:28:08 --> Undefined property: App\Controllers\Blog::$load
+#0 C:\wamp64\www\blog\app\Controllers\Blog.php(59): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\b...', 59, Array)
+#1 C:\wamp64\www\blog\system\CodeIgniter.php(928): App\Controllers\Blog->do_upload()
+#2 C:\wamp64\www\blog\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#3 C:\wamp64\www\blog\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\blog\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\blog\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\b...')
+#6 {main}
+CRITICAL - 2021-08-24 23:28:08 --> Undefined property: App\Controllers\Blog::$load
+#0 C:\wamp64\www\blog\app\Controllers\Blog.php(59): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\b...', 59, Array)
+#1 C:\wamp64\www\blog\system\CodeIgniter.php(928): App\Controllers\Blog->do_upload()
+#2 C:\wamp64\www\blog\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#3 C:\wamp64\www\blog\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\blog\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\blog\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\b...')
+#6 {main}
+CRITICAL - 2021-08-24 23:29:54 --> Undefined property: App\Controllers\Blog::$load
+#0 C:\wamp64\www\blog\app\Controllers\Blog.php(59): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\b...', 59, Array)
+#1 C:\wamp64\www\blog\system\CodeIgniter.php(928): App\Controllers\Blog->do_upload()
+#2 C:\wamp64\www\blog\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#3 C:\wamp64\www\blog\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\blog\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\blog\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\b...')
+#6 {main}
+CRITICAL - 2021-08-24 23:29:57 --> Class 'App\Models\BlogModel' not found
+#0 C:\wamp64\www\blog\system\CodeIgniter.php(928): App\Controllers\Pages->index()
+#1 C:\wamp64\www\blog\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\wamp64\www\blog\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\blog\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\blog\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\b...')
+#5 {main}
+CRITICAL - 2021-08-24 23:30:07 --> Class 'App\Models\BlogModel' not found
+#0 C:\wamp64\www\blog\system\CodeIgniter.php(928): App\Controllers\Pages->index()
+#1 C:\wamp64\www\blog\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\wamp64\www\blog\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\blog\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\blog\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\b...')
+#5 {main}
+CRITICAL - 2021-08-24 23:30:09 --> Class 'App\Models\BlogModel' not found
+#0 C:\wamp64\www\blog\system\CodeIgniter.php(928): App\Controllers\Pages->index()
+#1 C:\wamp64\www\blog\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\wamp64\www\blog\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\blog\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\blog\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\b...')
+#5 {main}
+CRITICAL - 2021-08-24 23:30:09 --> Class 'App\Models\BlogModel' not found
+#0 C:\wamp64\www\blog\system\CodeIgniter.php(928): App\Controllers\Pages->index()
+#1 C:\wamp64\www\blog\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\wamp64\www\blog\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\blog\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\blog\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\b...')
+#5 {main}
+CRITICAL - 2021-08-24 23:30:10 --> Class 'App\Models\BlogModel' not found
+#0 C:\wamp64\www\blog\system\CodeIgniter.php(928): App\Controllers\Pages->index()
+#1 C:\wamp64\www\blog\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\wamp64\www\blog\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\blog\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\blog\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\b...')
+#5 {main}
+CRITICAL - 2021-08-24 23:30:21 --> Undefined property: App\Controllers\Pages::$load
+#0 C:\wamp64\www\blog\app\Controllers\Pages.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\b...', 11, Array)
+#1 C:\wamp64\www\blog\system\CodeIgniter.php(928): App\Controllers\Pages->index()
+#2 C:\wamp64\www\blog\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 C:\wamp64\www\blog\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\blog\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\blog\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\b...')
+#6 {main}
+CRITICAL - 2021-08-24 23:30:39 --> Undefined property: App\Controllers\Pages::$load
+#0 C:\wamp64\www\blog\app\Controllers\Pages.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\b...', 11, Array)
+#1 C:\wamp64\www\blog\system\CodeIgniter.php(928): App\Controllers\Pages->index()
+#2 C:\wamp64\www\blog\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 C:\wamp64\www\blog\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\blog\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\blog\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\b...')
+#6 {main}
+CRITICAL - 2021-08-24 23:31:46 --> Undefined variable: news
+#0 C:\wamp64\www\blog\app\Views\pages\home.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\b...', 30, Array)
+#1 C:\wamp64\www\blog\system\View\View.php(230): include('C:\\wamp64\\www\\b...')
+#2 C:\wamp64\www\blog\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\blog\system\Common.php(1271): CodeIgniter\View\View->render('pages/home', Array, true)
+#4 C:\wamp64\www\blog\app\Controllers\Pages.php(14): view('pages/home')
+#5 C:\wamp64\www\blog\system\CodeIgniter.php(928): App\Controllers\Pages->index()
+#6 C:\wamp64\www\blog\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\wamp64\www\blog\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\blog\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\blog\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\b...')
+#10 {main}
+CRITICAL - 2021-08-24 23:34:46 --> Call to a member function database() on null
+#0 C:\wamp64\www\blog\app\Controllers\Pages.php(11): App\Models\BlogModel->__construct()
+#1 C:\wamp64\www\blog\system\CodeIgniter.php(928): App\Controllers\Pages->index()
+#2 C:\wamp64\www\blog\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 C:\wamp64\www\blog\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\blog\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\blog\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\b...')
+#6 {main}
+CRITICAL - 2021-08-24 23:36:26 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\blog\app\Views\blog\post.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\b...', 6, Array)
+#1 C:\wamp64\www\blog\system\View\View.php(230): include('C:\\wamp64\\www\\b...')
+#2 C:\wamp64\www\blog\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\blog\system\Common.php(1271): CodeIgniter\View\View->render('blog/post', Array, true)
+#4 C:\wamp64\www\blog\app\Controllers\Blog.php(14): view('blog/post')
+#5 C:\wamp64\www\blog\system\CodeIgniter.php(928): App\Controllers\Blog->post('list')
+#6 C:\wamp64\www\blog\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#7 C:\wamp64\www\blog\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\blog\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\blog\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\b...')
+#10 {main}
+CRITICAL - 2021-08-24 23:38:03 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\blog\app\Views\blog\post.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\b...', 6, Array)
+#1 C:\wamp64\www\blog\system\View\View.php(230): include('C:\\wamp64\\www\\b...')
+#2 C:\wamp64\www\blog\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\blog\system\Common.php(1271): CodeIgniter\View\View->render('blog/post', Array, true)
+#4 C:\wamp64\www\blog\app\Controllers\Blog.php(14): view('blog/post')
+#5 C:\wamp64\www\blog\system\CodeIgniter.php(928): App\Controllers\Blog->post('list')
+#6 C:\wamp64\www\blog\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#7 C:\wamp64\www\blog\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\blog\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\blog\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\b...')
+#10 {main}
+CRITICAL - 2021-08-24 23:38:04 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\blog\app\Views\blog\post.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\b...', 6, Array)
+#1 C:\wamp64\www\blog\system\View\View.php(230): include('C:\\wamp64\\www\\b...')
+#2 C:\wamp64\www\blog\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\blog\system\Common.php(1271): CodeIgniter\View\View->render('blog/post', Array, true)
+#4 C:\wamp64\www\blog\app\Controllers\Blog.php(14): view('blog/post')
+#5 C:\wamp64\www\blog\system\CodeIgniter.php(928): App\Controllers\Blog->post('list')
+#6 C:\wamp64\www\blog\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#7 C:\wamp64\www\blog\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\blog\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\blog\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\b...')
+#10 {main}
